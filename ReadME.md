@@ -20,10 +20,12 @@ Now that your app is running locally we now need to connect it to esa.
 
 ## Part 2: ESA conection
 
-4. configure the project to use EAS `eas build:configure `
-5. send the build to eas `eas build --profile development --platform android`
+4. configure the project to use EAS. `eas build:configure `
+5. Send the development build to EAS for developers to run javascript code no need to compil the android apk. `eas build --profile development --platform android`
+6. You can also compile an APK with EAS to install on a local andrpod device. `eas build -p android --profile preview`
 
 ## resources
 
-- ( What is a development build )[https://docs.expo.dev/develop/development-builds/introduction/]
-- (Create a development build)[https://docs.expo.dev/develop/development-builds/create-a-build/]
+- [What is a development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Create a development build](https://docs.expo.dev/develop/development-builds/create-a-build/)
+- [Building an APK for testing](https://docs.expo.dev/build-reference/apk/)
